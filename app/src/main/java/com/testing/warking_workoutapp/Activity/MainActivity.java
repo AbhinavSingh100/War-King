@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         lessons.add(new Lesson("Cardio", "20 min", "K6I24WgiiPw", "pic_1_2"));
         lessons.add(new Lesson("Cool down", "5 min", "Zc08v4YY0eA", "pic_1_3"));
 
-        return new Workout(lessons, "35 min", 250, "pic1", "Beginner full-body workout", "Workout 1");
+        return new Workout(lessons, "35 min", 250, "pic_1", "Beginner full-body workout", "Workout 1");
     }
 
     public static Workout getWorkout2() {
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         lessons.add(new Lesson("Strength", "25 min", "link5", "pic_2_2"));
         lessons.add(new Lesson("Stretching", "7 min", "link6", "pic_2_3"));
 
-        return new Workout(lessons, "40 min", 300, "pic2", "Intermediate strength workout", "Workout 2");
+        return new Workout(lessons, "40 min", 300, "pic_2", "Intermediate strength workout", "Workout 2");
     }
 
     public static Workout getWorkout3() {
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         lessons.add(new Lesson("HIIT", "30 min", "link8", "pic_3_2"));
         lessons.add(new Lesson("Cool down", "10 min", "link9", "pic_3_3"));
 
-        return new Workout(lessons, "45 min", 400, "pic3", "Advanced HIIT workout", "Workout 3");
+        return new Workout(lessons, "45 min", 400, "pic_3", "Advanced HIIT workout", "Workout 3");
     }
 
 }

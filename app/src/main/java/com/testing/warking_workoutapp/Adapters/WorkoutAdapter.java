@@ -47,7 +47,7 @@ public class WorkoutAdapter extends RecyclerView.Adapter<WorkoutAdapter.ViewHold
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, WorkoutActivity.class);
-                intent.putExtra("workout", workouts.get(position));
+                intent.putExtra("object", workouts.get(position));
                 context.startActivity(intent);
             }
         });

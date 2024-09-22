@@ -31,13 +31,14 @@ private Workout workout;
             }
         });
         getWorkoutData();
-        setVariables();
 
     }
     void getWorkoutData(){
         workout = (Workout) getIntent().getSerializableExtra("object");
+        setVariables();
     }
     void setVariables(){
+
         int resID = getResources().getIdentifier(workout.getPicPath(),"drawable",getPackageName());
         Glide.with(this).load(resID).into(binding.workoutPic);
         binding.titleTxt.setText(workout.getTitle());

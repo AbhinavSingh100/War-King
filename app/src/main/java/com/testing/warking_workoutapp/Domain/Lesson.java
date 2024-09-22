@@ -1,6 +1,8 @@
 package com.testing.warking_workoutapp.Domain;
 
-public class Lesson {
+import java.io.Serializable;
+
+public class Lesson implements Serializable {
     private String title;
     private String duration;
     private String link;
