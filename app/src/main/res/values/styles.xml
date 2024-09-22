@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="progress_bar_style" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateTint">#FFFFFF</item>
+        <item name="android:progressBackgroundTint">@color/white</item>
+        <item name="android:progressTint">#366CF3</item>
+    </style>
+</resources>

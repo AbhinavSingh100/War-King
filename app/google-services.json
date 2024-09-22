@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "926295256007",
+    "project_id": "war-king-workout-app",
+    "storage_bucket": "war-king-workout-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926295256007:android:29b67d96b51a55f57407e2",
+        "android_client_info": {
+          "package_name": "com.testing.warking_workoutapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqaiI8i50Hg25fRecO08ZEEkpkxL-0CQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
